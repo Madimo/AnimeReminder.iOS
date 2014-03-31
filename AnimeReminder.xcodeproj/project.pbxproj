@@ -45,7 +45,6 @@
 		D8C1C7AD18E98743002A408D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D8C1C7AF18E98743002A408D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8C1C7B318E98743002A408D /* AnimeReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimeReminder-Info.plist"; sourceTree = "<group>"; };
-		D8C1C7B518E98743002A408D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8C1C7B718E98743002A408D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8C1C7B918E98743002A408D /* AnimeReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimeReminder-Prefix.pch"; sourceTree = "<group>"; };
 		D8C1C7BA18E98743002A408D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +53,6 @@
 		D8C1C7C318E98743002A408D /* AnimeReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C1C7C418E98743002A408D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8C1C7CC18E98743002A408D /* AnimeReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimeReminderTests-Info.plist"; sourceTree = "<group>"; };
-		D8C1C7CE18E98743002A408D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8C1C7D018E98743002A408D /* AnimeReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimeReminderTests.m; sourceTree = "<group>"; };
 		D8C1C7DA18E988C0002A408D /* ContentBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentBaseTableViewController.h; sourceTree = "<group>"; };
 		D8C1C7DB18E988C0002A408D /* ContentBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentBaseTableViewController.m; sourceTree = "<group>"; };
@@ -66,6 +64,8 @@
 		D8C1C7E118E988C1002A408D /* SlideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuItem.m; sourceTree = "<group>"; };
 		D8C1C7E818E98912002A408D /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
 		D8C1C7E918E98912002A408D /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		D8C1C7EC18E98AD2002A408D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D8C1C7ED18E98AD2002A408D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +259,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = D8C1C79F18E98742002A408D;
 			productRefGroup = D8C1C7A918E98743002A408D /* Products */;
@@ -361,7 +362,7 @@
 		D8C1C7B418E98743002A408D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8C1C7B518E98743002A408D /* en */,
+				D8C1C7EC18E98AD2002A408D /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -369,7 +370,7 @@
 		D8C1C7CD18E98743002A408D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8C1C7CE18E98743002A408D /* en */,
+				D8C1C7ED18E98AD2002A408D /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -409,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -441,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
