@@ -14,3 +14,14 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+// debug log
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#define debugAPIOutput(func_name, opt) NSLog(@"\n ----- %@ return ----- \n%@\n----- end of %@ return -----", func_name, opt, func_name)
+#else
+#define debugLog(...)
+#define debugMethod()
+#define debugOutput(a, b)
+#endif
