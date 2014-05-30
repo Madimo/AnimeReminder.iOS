@@ -7,52 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import "AnimeAPI.h"
-#import "AnimeAPITest.h"
 #import <AFNetworkActivityIndicatorManager.h>
-
-#define TEST_MODE
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
-
-#ifdef TEST_MODE
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"TestAnimeAPI" bundle:nil];
-    self.window.rootViewController = storyboard.instantiateInitialViewController;
-    [self.window makeKeyAndVisible];
-    
-    
-    /**
-     *  test code below here...
-     */
-    
-    AnimeAPITest *test = [[AnimeAPITest alloc] init];
-    
-    //[test testLoginWithUsername:@"a" password:@"a"];
-    
-    //[test testRegisterWithUsername:@"222@123.com" password:@"123456"];
-    
-    //[test testGetSubscription];
-    
-    //[test testChangePasswordWithOldPassword:@"123456" newPassword:@"111111"];
-    
-    //[test testSetEmailEnable:YES];
-    
-    //[test testGetEmailReminderEnable];
-    
-    [test testGetUpdateSchedule];
-    
-    
-#else
-    
-
-    
-#endif
     
     return YES;
 }

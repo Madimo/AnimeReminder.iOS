@@ -22,9 +22,7 @@
 		D8C1C7D118E98743002A408D /* AnimeReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7D018E98743002A408D /* AnimeReminderTests.m */; };
 		D8C1C7F218E98B99002A408D /* AnimeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7F118E98B99002A408D /* AnimeAPI.m */; };
 		D8C1C7F518E9AA66002A408D /* SubscriptionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7F418E9AA66002A408D /* SubscriptionItem.m */; };
-		D8C1C7F818E9AEBB002A408D /* AnimeAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7F718E9AEBB002A408D /* AnimeAPITest.m */; };
 		D8C1C7FB18E9C609002A408D /* UpdateScheduleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7FA18E9C609002A408D /* UpdateScheduleItem.m */; };
-		D8F4CD8C18EC23D100C1333E /* TestAnimeAPI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F4CD8B18EC23D100C1333E /* TestAnimeAPI.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +58,8 @@
 		D8C1C7F118E98B99002A408D /* AnimeAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimeAPI.m; sourceTree = "<group>"; };
 		D8C1C7F318E9AA66002A408D /* SubscriptionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionItem.h; sourceTree = "<group>"; };
 		D8C1C7F418E9AA66002A408D /* SubscriptionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionItem.m; sourceTree = "<group>"; };
-		D8C1C7F618E9AEBB002A408D /* AnimeAPITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimeAPITest.h; sourceTree = "<group>"; };
-		D8C1C7F718E9AEBB002A408D /* AnimeAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimeAPITest.m; sourceTree = "<group>"; };
 		D8C1C7F918E9C609002A408D /* UpdateScheduleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateScheduleItem.h; sourceTree = "<group>"; };
 		D8C1C7FA18E9C609002A408D /* UpdateScheduleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateScheduleItem.m; sourceTree = "<group>"; };
-		D8F4CD8B18EC23D100C1333E /* TestAnimeAPI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestAnimeAPI.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +125,6 @@
 				D8C1C7FC18E9C8A1002A408D /* Models */,
 				D8C1C7F018E98B99002A408D /* AnimeAPI.h */,
 				D8C1C7F118E98B99002A408D /* AnimeAPI.m */,
-				D8F4CD8B18EC23D100C1333E /* TestAnimeAPI.storyboard */,
-				D8C1C7F618E9AEBB002A408D /* AnimeAPITest.h */,
-				D8C1C7F718E9AEBB002A408D /* AnimeAPITest.m */,
 				D8C1C7BA18E98743002A408D /* AppDelegate.h */,
 				D8C1C7BB18E98743002A408D /* AppDelegate.m */,
 				D8C1C7BD18E98743002A408D /* Images.xcassets */,
@@ -261,7 +253,6 @@
 			files = (
 				D8C1C7B618E98743002A408D /* InfoPlist.strings in Resources */,
 				D8C1C7BE18E98743002A408D /* Images.xcassets in Resources */,
-				D8F4CD8C18EC23D100C1333E /* TestAnimeAPI.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +308,6 @@
 				D8C1C7F218E98B99002A408D /* AnimeAPI.m in Sources */,
 				D8C1C7F518E9AA66002A408D /* SubscriptionItem.m in Sources */,
 				D8C1C7B818E98743002A408D /* main.m in Sources */,
-				D8C1C7F818E9AEBB002A408D /* AnimeAPITest.m in Sources */,
 				D8C1C7FB18E9C609002A408D /* UpdateScheduleItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
