@@ -20,11 +20,6 @@
 		D8C1C7C718E98743002A408D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C1C7AF18E98743002A408D /* UIKit.framework */; };
 		D8C1C7CF18E98743002A408D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8C1C7CD18E98743002A408D /* InfoPlist.strings */; };
 		D8C1C7D118E98743002A408D /* AnimeReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7D018E98743002A408D /* AnimeReminderTests.m */; };
-		D8C1C7E218E988C1002A408D /* ContentBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7DB18E988C0002A408D /* ContentBaseTableViewController.m */; };
-		D8C1C7E318E988C1002A408D /* ContentBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7DD18E988C0002A408D /* ContentBaseViewController.m */; };
-		D8C1C7E418E988C1002A408D /* SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7DF18E988C0002A408D /* SlideMenu.m */; };
-		D8C1C7E518E988C1002A408D /* SlideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7E118E988C1002A408D /* SlideMenuItem.m */; };
-		D8C1C7EA18E98912002A408D /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7E918E98912002A408D /* UIImage+TintColor.m */; };
 		D8C1C7F218E98B99002A408D /* AnimeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7F118E98B99002A408D /* AnimeAPI.m */; };
 		D8C1C7F518E9AA66002A408D /* SubscriptionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7F418E9AA66002A408D /* SubscriptionItem.m */; };
 		D8C1C7F818E9AEBB002A408D /* AnimeAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1C7F718E9AEBB002A408D /* AnimeAPITest.m */; };
@@ -59,16 +54,6 @@
 		D8C1C7C418E98743002A408D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8C1C7CC18E98743002A408D /* AnimeReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimeReminderTests-Info.plist"; sourceTree = "<group>"; };
 		D8C1C7D018E98743002A408D /* AnimeReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimeReminderTests.m; sourceTree = "<group>"; };
-		D8C1C7DA18E988C0002A408D /* ContentBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentBaseTableViewController.h; sourceTree = "<group>"; };
-		D8C1C7DB18E988C0002A408D /* ContentBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentBaseTableViewController.m; sourceTree = "<group>"; };
-		D8C1C7DC18E988C0002A408D /* ContentBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentBaseViewController.h; sourceTree = "<group>"; };
-		D8C1C7DD18E988C0002A408D /* ContentBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentBaseViewController.m; sourceTree = "<group>"; };
-		D8C1C7DE18E988C0002A408D /* SlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenu.h; sourceTree = "<group>"; };
-		D8C1C7DF18E988C0002A408D /* SlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenu.m; sourceTree = "<group>"; };
-		D8C1C7E018E988C0002A408D /* SlideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuItem.h; sourceTree = "<group>"; };
-		D8C1C7E118E988C1002A408D /* SlideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuItem.m; sourceTree = "<group>"; };
-		D8C1C7E818E98912002A408D /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
-		D8C1C7E918E98912002A408D /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
 		D8C1C7EC18E98AD2002A408D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D8C1C7ED18E98AD2002A408D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D8C1C7F018E98B99002A408D /* AnimeAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimeAPI.h; sourceTree = "<group>"; };
@@ -142,8 +127,6 @@
 		D8C1C7B118E98743002A408D /* AnimeReminder */ = {
 			isa = PBXGroup;
 			children = (
-				D8C1C7EB18E9892A002A408D /* Categorys */,
-				D8C1C7E618E988C6002A408D /* SlideMenu */,
 				D8C1C7FC18E9C8A1002A408D /* Models */,
 				D8C1C7F018E98B99002A408D /* AnimeAPI.h */,
 				D8C1C7F118E98B99002A408D /* AnimeAPI.m */,
@@ -185,38 +168,6 @@
 				D8C1C7CD18E98743002A408D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8C1C7E618E988C6002A408D /* SlideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				D8C1C7E718E988D4002A408D /* Controllers */,
-				D8C1C7DE18E988C0002A408D /* SlideMenu.h */,
-				D8C1C7DF18E988C0002A408D /* SlideMenu.m */,
-				D8C1C7E018E988C0002A408D /* SlideMenuItem.h */,
-				D8C1C7E118E988C1002A408D /* SlideMenuItem.m */,
-			);
-			name = SlideMenu;
-			sourceTree = "<group>";
-		};
-		D8C1C7E718E988D4002A408D /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D8C1C7DA18E988C0002A408D /* ContentBaseTableViewController.h */,
-				D8C1C7DB18E988C0002A408D /* ContentBaseTableViewController.m */,
-				D8C1C7DC18E988C0002A408D /* ContentBaseViewController.h */,
-				D8C1C7DD18E988C0002A408D /* ContentBaseViewController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		D8C1C7EB18E9892A002A408D /* Categorys */ = {
-			isa = PBXGroup;
-			children = (
-				D8C1C7E818E98912002A408D /* UIImage+TintColor.h */,
-				D8C1C7E918E98912002A408D /* UIImage+TintColor.m */,
-			);
-			name = Categorys;
 			sourceTree = "<group>";
 		};
 		D8C1C7FC18E9C8A1002A408D /* Models */ = {
@@ -366,13 +317,8 @@
 				D8C1C7F218E98B99002A408D /* AnimeAPI.m in Sources */,
 				D8C1C7F518E9AA66002A408D /* SubscriptionItem.m in Sources */,
 				D8C1C7B818E98743002A408D /* main.m in Sources */,
-				D8C1C7E218E988C1002A408D /* ContentBaseTableViewController.m in Sources */,
 				D8C1C7F818E9AEBB002A408D /* AnimeAPITest.m in Sources */,
-				D8C1C7E318E988C1002A408D /* ContentBaseViewController.m in Sources */,
-				D8C1C7EA18E98912002A408D /* UIImage+TintColor.m in Sources */,
 				D8C1C7FB18E9C609002A408D /* UpdateScheduleItem.m in Sources */,
-				D8C1C7E418E988C1002A408D /* SlideMenu.m in Sources */,
-				D8C1C7E518E988C1002A408D /* SlideMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
